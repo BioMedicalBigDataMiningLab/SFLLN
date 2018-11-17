@@ -1,8 +1,0 @@
-Instructions
-1. There are three files in the package: "feature matrix.xls", "interaction matrix.txt" and "SFLLN.py". 
-2. "interaction matrix.txt" contains 606 drugs with their known interactions information.
-3. "feature matrix.xls" contains four features: chemical substructures, targets£¬enzymes and pathways for 606 drugs.  
-4. "SFLLN.py" is the python script, which can run under the enviroment of python 2.7 to implement experiments on our method SFLLN.
-The input of "SFLLN.py" includes interaction matrix and interaction matrix, and the output is the 6 metrics(AUPR, AUC, ACC, F1, precision and recall)
-in two tasks of prediction, which are saved in "metr_SFLLN.txt" and "metr_semi_SFLLN.txt" respectively.
-
